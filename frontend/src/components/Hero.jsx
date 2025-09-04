@@ -38,9 +38,15 @@ const Hero = () => {
                 <span>Buy $DOJECOIN</span>
                 <ArrowRight size={20} />
               </a>
-              <button className="btn-secondary dark-button-animate">
+              <a 
+                href="https://dexscreener.com/solana/8k1zdEn8RVCGELtMwbWMKqbvMYTWUX9WRv2gk3B2g6ET"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary dark-button-animate"
+                style={{ textDecoration: 'none' }}
+              >
                 View Chart
-              </button>
+              </a>
             </div>
             
             <div className="mt-12">
