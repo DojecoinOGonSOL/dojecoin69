@@ -28,10 +28,16 @@ const Hero = () => {
             </p>
             
             <div className="flex gap-4">
-              <button className="btn-primary dark-button-animate">
+              <a 
+                href="https://jup.ag/tokens/CqXWmq5gtHbhDfuThJMecKyrCMx4pXc2Vch9mZwMpump"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary dark-button-animate"
+                style={{ textDecoration: 'none' }}
+              >
                 <span>Buy $DOJECOIN</span>
                 <ArrowRight size={20} />
-              </button>
+              </a>
               <button className="btn-secondary dark-button-animate">
                 View Chart
               </button>
