@@ -16,7 +16,7 @@ const About = () => {
     {
       icon: <Users size={32} />,
       title: 'Community Driven',
-      description: 'Powered by a passionate community of believers in the original Doge vision.'
+      description: 'Powered by a passionate community of believers in the original Dojecoin contract on Solana. First to much profit. Much wow.'
     }
   ];
 
