@@ -56,7 +56,7 @@ const Hero = () => {
                   maxHeight: '100%', 
                   objectFit: 'contain',
                   borderRadius: '20px',
-                  filter: 'drop-shadow(0 0 30px rgba(79, 124, 255, 0.3))'
+                  filter: 'drop-shadow(0 0 30px rgba(79, 124, 255, 0.3)) hue-rotate(180deg) saturate(1.2) brightness(1.1)'
                 }}
               />
             </div>
