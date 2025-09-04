@@ -45,10 +45,20 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right Side - Spline 3D */}
+          {/* Right Side - Shiba Inu Image */}
           <div style={{ flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <div style={{ width: '700px', height: '700px', overflow: 'visible', position: 'relative' }}>
-              <Spline scene="https://prod.spline.design/NbVmy6DPLhY-5Lvg/scene.splinecode" />
+            <div style={{ width: '500px', height: '500px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <img 
+                src="https://cdn.pixabay.com/photo/2023/03/03/19/19/doge-7828307_1280.jpg"
+                alt="Shiba Inu Dog - DOJECOIN Mascot"
+                style={{ 
+                  maxWidth: '100%', 
+                  maxHeight: '100%', 
+                  objectFit: 'contain',
+                  borderRadius: '20px',
+                  filter: 'drop-shadow(0 0 30px rgba(79, 124, 255, 0.3))'
+                }}
+              />
             </div>
           </div>
         </div>
