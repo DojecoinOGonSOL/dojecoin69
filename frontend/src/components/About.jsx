@@ -12,6 +12,30 @@ const About = () => {
       icon: <Users size={32} />,
       title: 'Community Driven',
       description: 'Powered by a passionate community of believers in the original Dojecoin contract on Solana. First to much profit. Much wow.'
+    },
+    {
+      icon: <BookOpen size={32} />,
+      title: 'Lore',
+      description: (
+        <span>
+          Discover the origins in the{' '}
+          <a 
+            href="https://bitcointalk.org/index.php?topic=615668.0"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ 
+              color: 'var(--brand-primary)', 
+              textDecoration: 'underline',
+              transition: 'color 0.3s ease'
+            }}
+            onMouseEnter={(e) => e.target.style.color = 'var(--brand-active)'}
+            onMouseLeave={(e) => e.target.style.color = 'var(--brand-primary)'}
+          >
+            original forum post
+          </a>
+          {' '}about creating Dojecoin back in 2014.
+        </span>
+      )
     }
   ];
 
