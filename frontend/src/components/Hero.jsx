@@ -24,7 +24,7 @@ const Hero = () => {
             </h2>
             
             <p className="body-large mb-12" style={{ lineHeight: '1.6' }}>
-              Experience the evolution of the classic meme. $DOJECOIN brings the original Dogecoin spirit to the Solana Network with enhanced utility and community-driven features.
+              Experience the evolution of the classic meme. $DOJECOIN brings the original Dojecoin spirit to the Solana Network with community-driven features.
             </p>
             
             <div className="flex gap-4">
