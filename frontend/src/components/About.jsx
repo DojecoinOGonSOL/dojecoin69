@@ -9,11 +9,6 @@ const About = () => {
       description: 'First memecoin on Solana of the first derivative of the legendary Dogecoin from 2014 called Dojecoin.'
     },
     {
-      icon: <Zap size={32} />,
-      title: 'Solana Speed',
-      description: 'Built on Solana Network for lightning-fast transactions and minimal fees.'
-    },
-    {
       icon: <Users size={32} />,
       title: 'Community Driven',
       description: 'Powered by a passionate community of believers in the original Dojecoin contract on Solana. First to much profit. Much wow.'
