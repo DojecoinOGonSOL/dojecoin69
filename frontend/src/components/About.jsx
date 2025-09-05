@@ -6,7 +6,7 @@ const About = () => {
     {
       icon: <TrendingUp size={32} />,
       title: 'Original Heritage',
-      description: 'First derivative of the legendary Dogecoin from 2014, preserving the authentic meme culture.'
+      description: 'First memecoin on Solana of the first derivative of the legendary Dogecoin from 2014 called Dojecoin.'
     },
     {
       icon: <Zap size={32} />,
