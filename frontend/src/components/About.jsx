@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrendingUp, Users } from 'lucide-react';
+import { TrendingUp, Users, BookOpen } from 'lucide-react';
 
 const About = () => {
   const features = [
