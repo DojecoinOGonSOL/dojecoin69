@@ -33,7 +33,13 @@ const Footer = () => {
               <a href="#about" className="body-medium dark-transition" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>
                 About
               </a>
-              <a href="#token" className="body-medium dark-transition" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>
+              <a 
+                href="https://solscan.io/token/CqXWmq5gtHbhDfuThJMecKyrCMx4pXc2Vch9mZwMpump"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="body-medium dark-transition" 
+                style={{ color: 'var(--text-muted)', textDecoration: 'none' }}
+              >
                 Token Info
               </a>
               <a href="#community" className="body-medium dark-transition" style={{ color: 'var(--text-muted)', textDecoration: 'none' }}>
