@@ -138,6 +138,7 @@ metadata:
 test_plan:
   current_focus:
     - "Image Replacement - Blue Shiba Inu"
+    - "Text Update - Legacy Continues Section"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
@@ -145,3 +146,5 @@ test_plan:
 agent_communication:
     - agent: "main"
       message: "Image replacement completed successfully. Downloaded user's blue Shiba Inu image from assets API, saved to local assets folder, updated Hero.jsx component to use local import instead of external URL. Screenshot confirms proper display."
+    - agent: "main"
+      message: "Text update completed successfully. Updated 'The Legacy Continues' section in About.jsx to use 'DOJE carries on' instead of '$DOJECOIN carries forward' and removed Solana technology reference. Screenshot confirms proper display."
