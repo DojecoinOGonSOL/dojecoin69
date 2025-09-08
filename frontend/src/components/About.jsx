@@ -67,9 +67,8 @@ const About = () => {
               The Legacy Continues
             </h3>
             <p className="body-large" style={{ lineHeight: '1.6' }}>
-              From the iconic "much wow" to "very crypto," $DOJECOIN carries forward the playful spirit 
-              that made Dogecoin a cultural phenomenon. Now enhanced with Solana's cutting-edge technology, 
-              we're building the next chapter of meme coin history.
+              From the iconic "much wow" to "very crypto," DOJE carries on the playful spirit 
+              that made Dogecoin a cultural phenomenon. We're building the next chapter of meme coin history.
             </p>
           </div>
         </div>
