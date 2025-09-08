@@ -62,14 +62,14 @@ const Hero = () => {
           <div style={{ flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <div style={{ width: '500px', height: '500px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <img 
-                src="https://cdn.pixabay.com/photo/2023/03/03/19/19/doge-7828307_1280.jpg"
+                src={shibaImage}
                 alt="Shiba Inu Dog - DOJECOIN Mascot"
                 style={{ 
                   maxWidth: '100%', 
                   maxHeight: '100%', 
                   objectFit: 'contain',
                   borderRadius: '20px',
-                  filter: 'drop-shadow(0 0 30px rgba(79, 124, 255, 0.3)) hue-rotate(20deg) saturate(0.9) brightness(1.05) contrast(1.1)'
+                  filter: 'drop-shadow(0 0 30px rgba(79, 124, 255, 0.3))'
                 }}
               />
             </div>
