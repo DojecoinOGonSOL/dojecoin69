@@ -7,7 +7,7 @@ const Community = () => {
       name: 'Telegram',
       icon: <MessageCircle size={24} />,
       description: 'Join our main community chat',
-      url: 'https://t.me/+kR-q_xbXn-QwOTFh',
+      url: 'https://t.me/dojecoinOGonSOL',
       members: '5.2K+'
     },
     {
