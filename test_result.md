@@ -116,6 +116,18 @@ frontend:
         - working: true
           agent: "main"
           comment: "Successfully replaced external Pixabay image with user's uploaded blue Shiba Inu image. Updated imports and src path in Hero component. Image displays correctly with proper styling and blue glow effect."
+          
+  - task: "Text Update - Legacy Continues Section"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/components/About.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "main"
+          comment: "Updated text in 'The Legacy Continues' section. Changed '$DOJECOIN carries forward' to 'DOJE carries on' and removed Solana technology reference. Text is now more concise and displays correctly."
 
 metadata:
   created_by: "main_agent"
