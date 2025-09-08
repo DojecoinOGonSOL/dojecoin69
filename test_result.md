@@ -128,6 +128,18 @@ frontend:
         - working: true
           agent: "main"
           comment: "Updated text in 'The Legacy Continues' section. Changed '$DOJECOIN carries forward' to 'DOJE carries on' and removed Solana technology reference. Text is now more concise and displays correctly."
+          
+  - task: "Telegram Link Update"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/components/Community.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "main"
+          comment: "Updated Telegram link in Community section from 'https://t.me/+kR-q_xbXn-QwOTFh' to 'https://t.me/dojecoinOGonSOL'. Link displays correctly and opens in new tab."
 
 metadata:
   created_by: "main_agent"
