@@ -32,7 +32,7 @@ const Hero = () => {
             
             <div className="hero-buttons">
               <a 
-                href="https://jup.ag/tokens/CqXWmq5gtHbhDfuThJMecKyrCMx4pXc2Vch9mZwMpump"
+                href="https://pump.fun/coin/CqXWmq5gtHbhDfuThJMecKyrCMx4pXc2Vch9mZwMpump"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary dark-button-animate hero-btn"
