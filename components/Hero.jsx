@@ -67,7 +67,7 @@ const Hero = () => {
           <div className="hero-image-container">
             <div className="doje-img">
               <Image 
-                src="/shiba_inu_cartoon_transparent.png"
+                src="/isolateddoje.jpg"
                 alt="dojecoin"
                 width={500}
                 height={500}
